@@ -56,15 +56,13 @@
 
     &:hover,
     &:focus {
-            color: var(--main-accent-color);
-        }
+        color: var(--main-accent-color);
+    }
 
-                &:not(:last-child) {
-                    margin-right: 50px;
-                }
-
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
-
 
 .mail-phone {
     fill: currentColor;
@@ -94,8 +92,8 @@
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .pages__item:hover,
-    .pages__item:focus{
+    &:hover,
+    &:focus{
         color: var(--main-accent-color);
     }
 }
@@ -130,10 +128,7 @@
     align-items: center;
     margin-left: auto;
 
-    &:hover,
-    &:focus{
-        color: var(--main-accent-color);
-        }
+   
  }
 
 
@@ -150,4 +145,10 @@
     color: var(--main-text-color);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--main-accent-color);
+        }
+
 }
